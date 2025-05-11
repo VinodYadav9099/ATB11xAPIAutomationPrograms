@@ -1,6 +1,6 @@
 package com.thetestingacademy.ex_02_RA_Concepts;
 
-public class API_Lab03_NP {
+public class APITesting_Lab03_NP {
 
     //NoDesign Pattern
 
@@ -17,7 +17,10 @@ public class API_Lab03_NP {
 
     public static void main(String[] args) {
 
-    
+    APITesting_Lab03_NP np = new APITesting_Lab03_NP();
+    np.step1();
+    np.step2();
+    np.step3();
 
 
     }

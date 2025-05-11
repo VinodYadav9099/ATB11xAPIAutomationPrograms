@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 
 import java.util.Scanner;
 
-public class Lab02_RA {
+public class APITesting_Lab02_RA {
 
     public static void main(String[] args) {
 
