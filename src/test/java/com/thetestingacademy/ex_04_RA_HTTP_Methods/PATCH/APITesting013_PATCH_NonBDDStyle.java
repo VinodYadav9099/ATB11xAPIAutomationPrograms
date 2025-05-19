@@ -17,11 +17,11 @@ public class APITesting013_PATCH_NonBDDStyle {
     @Test
     public void test_patch_non_bdd() {
 
-        String token = "038ba9b9295d600";
-        String bookingid = "582";
+        String token = "0af0fedeb84fe50";
+        String bookingid = "500";
 
-        String payloadPUT = "{\n" +
-                "    \"firstname\" : \"Micky\",\n" +
+        String payloadPatch = "{\n" +
+                "    \"firstname\" : \"Vinod\",\n" +
                 "    \"lastname\" : \"Brown\"\n" +
                 "}";
 
@@ -32,9 +32,9 @@ public class APITesting013_PATCH_NonBDDStyle {
         r.contentType(ContentType.JSON);
 //        r.auth().oaut
         r.cookie("token", token);
-        r.body(payloadPUT).log().all();
+        r.body(payloadPatch).log().all();
 
-        response = r.when().log().all().put();
+        response = r.when().log().all().patch();
 
 
         vr = response.then().log().all();

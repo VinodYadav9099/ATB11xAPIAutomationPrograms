@@ -1,15 +1,15 @@
-package com.thetestingacademy.ex_06_TestAssertions;
+package com.thetestingacademy.ex_07_Payload_management.String;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class APITesting028_TestNG_ASSERTJ_Assertions {
 

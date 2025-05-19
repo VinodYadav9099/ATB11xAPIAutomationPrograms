@@ -18,8 +18,8 @@ public class APITesting012_PUT_NonBDDStyle {
     @Test
     public void test_put_non_bdd() {
 
-        String token = "8c0ae310df3897c";
-        String bookingid = "2152";
+        String token = "0af0fedeb84fe50";
+        String bookingid = "500";
 
         String payloadPUT = "{\n" +
                 "    \"firstname\" : \"Vinod\",\n" +
@@ -30,7 +30,7 @@ public class APITesting012_PUT_NonBDDStyle {
                 "        \"checkin\" : \"2024-01-01\",\n" +
                 "        \"checkout\" : \"2024-01-01\"\n" +
                 "    },\n" +
-                "    \"additionalneeds\" : \"Lunch\"\n" +
+                "    \"additionalneeds\" : \"Dinner\"\n" +
                 "}";
 
 
